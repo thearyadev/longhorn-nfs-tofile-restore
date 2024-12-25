@@ -37,6 +37,11 @@ inside the longhorn folder is the "backkupstore" folder which contains the backu
 tested on python 3.11.9. uses no external libraries.
 should work on python 3.9+
 
+once the backup is restored, you can mount it to your filesystem using the following command:
+
+```bash
+sudo mount -o loop bak.raw /mountpoint
+```
 
 ## License
 
